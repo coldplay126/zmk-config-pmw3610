@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/coldplay126
+      url-base: https://github.com/petejohanson
     - name: inorichi
       url-base: https://github.com/inorichi
   projects:

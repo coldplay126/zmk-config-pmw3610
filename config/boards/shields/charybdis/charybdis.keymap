@@ -1,8 +1,9 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
 
@@ -19,7 +20,6 @@
                                 &kp LGUI     &kp SPACE   &kp LEFT_ALT          &kp BSPC &kp RET
                                              &mo 1       &kp LSHFT             &mo 2
             >;
-            // trackball-bindings = <&tmv_coarse>;
         };
 
         Lower {
@@ -32,7 +32,6 @@
                                             &kp LGUI    &trans      &kp SPACE            &kp RET  &kp RCTRL
                                                         &trans      &trans               &kp LANGUAGE_1
             >;
-            // trackball-bindings = <&tmv_fine>;
         };
 
         Raise {
@@ -45,7 +44,6 @@
                                         &kp LGUI    &kp LEFT_ALT    &kp SPACE         &kp RET     &trans
                                                     &trans          &trans            &trans
             >;
-            // trackball-bindings = <&tsl_fine>;
         };
 
         Mouse {
@@ -57,7 +55,6 @@
                            &mkp LCLK  &trans  &mkp RCLK    &trans  &trans
                                       &trans     &trans    &trans
             >;
-            // trackball-bindings = <&tmv_fine>;
         };
 
     };
