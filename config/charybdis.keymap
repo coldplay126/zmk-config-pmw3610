@@ -14,7 +14,7 @@
     behaviors {
         mouse: mouse {
             compatible = "zmk,behavior-mouse-move";
-            label = "MOUSE";
+            label = "Mouse";
             #binding-cells = <1>;
         };
 
@@ -65,6 +65,7 @@
         };
 
         Mouse {
+            label = "Mouse";
             bindings = <
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
