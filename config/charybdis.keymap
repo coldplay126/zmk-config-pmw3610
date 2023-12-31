@@ -11,20 +11,6 @@
 };
 
 / {
-    behaviors {
-        mouse: mouse {
-            compatible = "zmk,behavior-mouse-move";
-            label = "Mouse";
-            #binding-cells = <1>;
-        };
-
-        mouse_scroll: mouse_scroll {
-            compatible = "zmk,behavior-mouse-scroll";
-            label = "MOUSE_SCROLL";
-            #binding-cells = <1>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -65,7 +51,6 @@
         };
 
         Mouse {
-            label = "Mouse";
             bindings = <
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
