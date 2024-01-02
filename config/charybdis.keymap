@@ -46,7 +46,7 @@
 &trans  &bt BT_CLR    &bt BT_PRV  &bt BT_NXT  &bt BT_SEL 0  &trans       &kp UNDER  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_TOG  &trans      &trans      &trans        &to 3        &kp MINUS  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                                   &kp LGUI    &kp LEFT_ALT  &kp SPACE    &kp RET    &trans
-                                              &mkp LCLK     &mkp RCLK    &trans
+                                              &to 3         &trans       &trans
             >;
         };
 
@@ -56,8 +56,8 @@
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &mkp MCLK  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &mkp LCLK
-                           &mkp LCLK  &mkp MCLK  &mkp RCLK    &trans  &to 0
-                                      &mo 1   &trans       &mo 2
+                           &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &mo 2
+                                      &mo 1   &trans         &to 0 
             >;
         };
     };
