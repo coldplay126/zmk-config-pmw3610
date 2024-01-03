@@ -56,8 +56,8 @@
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &mkp MCLK  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &mkp LCLK
-                           &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &mo 2
-                                      &mo 1   &trans         &to 0 
+                           &trans     &trans  &trans       &trans  &mo 2
+                                      &mkp LCLK &mkp RCLK  &to 0 
             >;
         };
     };
