@@ -11,6 +11,15 @@
 };
 
 / {
+     combos {
+        compatible = "zmk,combos";
+        combo_lclk {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&mkp LCLK>;
+        };
+    };
+    
     keymap {
         compatible = "zmk,keymap";
 
